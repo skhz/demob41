@@ -1,0 +1,160 @@
+body{
+    font-family: 'Mukta Mahee', sans-serif;
+}
+.heading{
+    font-weight: normal;
+    font-size: 32px;
+    
+}
+
+.more-link{
+    padding: 5px;
+    color: #3cd52e;
+    border: 2px solid #fff;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 20px;
+    background: #FFF;
+}
+.more-link:hover{
+    text-decoration: none;
+    color: #3cd52e;
+}
+nav a{
+    font-size: 18px;
+}
+
+.green{
+    color: #3cd52e;
+}
+.bg-light{
+   background-color :#EBE9E9 !important;
+}
+
+ul li a{
+    color: #000 !important;
+    border-bottom: 1px solid #EBE9E9;
+}
+
+
+ul li a:hover{
+    border-bottom: 1px solid #3cd52e;
+    text-decoration: none;
+}
+
+.btn-buy-online{
+    width: 100%;
+    float: left;
+    background: #fff !important;
+    border: 1px solid #39d52d;
+    border-bottom-color: rgb(57, 213, 45);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-top: -5px;
+    height: 46px;
+    padding: 12px 15px !important;
+}
+
+
+#banner-section{
+    background: url('../img/banner-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+    color: #FFF;
+}
+
+#banner-section .dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#banner-section .banner-innder{
+    padding-top: 120px;
+}
+
+#banner-section .fas{
+    color: #3cd52e;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#banner-section .d-flex{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.card { background-color: rgba(0, 0, 0, 0.5); border-radius: 5px; }
+.card-header, .card-footer { opacity: 1}
+.card input[type="submit"]{
+    background: #3cd52e;
+    color: #FFF;
+}
+
+
+
+#pest-control p{
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+#video-section img{
+    width: 100%;
+}
+
+#identify .jumbotron{
+    background: url('../img/identify-the-problem.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    min-height: 400px;
+    color: #FFF;
+}
+#identify p{
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+
+#gaurantee-section{
+    background: url('../img/our-guarantee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+    color: #FFF;
+}
+
+#gaurantee-section .dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+
+#mission .jumbotron{
+    background: #E1F8E9 !important;
+}
+
+footer{
+    border-top: 1px solid #3cd52e;
+    padding-top: 10px;
+}
+
+footer a{
+    color: #000;
+}
+footer a:hover{
+    color: #3cd52e;
+    text-decoration: none;
+}
